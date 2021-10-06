@@ -10,12 +10,12 @@ const App = () => {
     {
       id: 1,
       name: 'Comprar pão na Padaria',
-      done: false
+      done: true,
     },
     {
       id: 2,
       name: 'Esquentar o Café',
-      done: false
+      done: false,
     },
   ]);
 
