@@ -10,14 +10,9 @@ const App = () => {
   const [list, setList] = useState<Item[]>([
     {
       id: 1,
-      name: 'Comprar pão na Padaria',
-      done: true,
-    },
-    {
-      id: 2,
-      name: 'Esquentar o Café',
+      name: 'Definir uma Tarefa à fazer',
       done: false,
-    },
+    },    
   ]);
 
   const handleAddTask = (taskName: string) => {
